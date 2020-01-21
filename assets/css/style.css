@@ -1,0 +1,67 @@
+body {
+    max-width: 60%;
+    margin: auto;
+}
+
+
+/*----------------------- Header ----------------------- */
+
+.header {
+    background: url("../images/header-kirke.jpg");
+    text-align: center;
+}
+
+.header h1{
+    color:;
+    font-size: 60px;
+    text-decoration: none;
+
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15%;
+    }
+
+/*----------------------- Header + navbar ----------------------- */
+
+.navbar {
+    background-color: #404750;
+    margin: auto;
+    
+}
+
+/*----------------------- Mid Section ----------------------- */
+
+.program-background-picture {
+    background: url("../images/1ice.jpg") no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    height: 800px;
+    opacity: 0.6;
+}
+
+.program-folder img {
+    width: 50%;
+    opacity: 0.9;
+    margin: auto;
+    display: block;
+    
+    
+    
+}
+
+/*----------------------- Footer ----------------------- */
+
+.footer {
+    background-color: #404750;
+    min-height: 150px;
+    text-align: center;
+}
+
+.footer .so-me li {
+    display: inline-block;
+}
