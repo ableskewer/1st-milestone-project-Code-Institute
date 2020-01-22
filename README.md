@@ -80,6 +80,7 @@ In particular, you should provide all details of the differences between the dep
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 <h2>Credits</h2>
+Found inspiration on font-shadows from stackoverflow.com forums.
 <h3><b>Content</b></h3>
 <ul>
 <li>The text for section Y was copied from the Wikipedia article Z</li>
