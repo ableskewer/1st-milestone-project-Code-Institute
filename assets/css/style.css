@@ -1,5 +1,5 @@
 body {
-background-color: #CBDFB9;
+background-color:#969E8E;
 }
 
 .mainframe {
@@ -17,26 +17,39 @@ background-color: #CBDFB9;
 .header {
     background: url("../images/header-kirke.jpg") no-repeat;
     text-align: center;
-    background-size: 100%;
-    height: 200px;
-    
-    
+    background-size: cover;
+    height: 150px;
+  
 }
 
-.header h1{
+.header-title h1{
     color: #08E8B5;
-    font-size: 60px;
+    font-size: 46px;
     font-family: "bangers", sans-serif;
     margin-top: 0px; 
-    padding-top: 45px;
     text-shadow: -4px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.header a {
-    text-decoration: none;
+.header-title {
+    padding-top: 35px;
 }
 
 /*----------------------- Header + navbar ----------------------- */
+
+.navbar-section {
+    width: 100%;
+    background-color: #9F4F48;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #2C1106;
+}
+
+.navbar {
+    margin: auto;
+    width: 80%;
+    padding: 20px 20px;
+}
 
 .navbar li {
     display: inline-block;
@@ -44,42 +57,56 @@ background-color: #CBDFB9;
     border-width: 1px;
     border-radius: 9.5%;
     border-color: black;
-    margin: 0 22px 0 22px;
     text-align: center;
-    font-size: 13px;
-    font-family: "Source+Sans+Pro", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 16px;
     background-color: #08E8B5;
-    }
-
-.navbar {
-    background-color: #9F4F48;
-    margin: auto;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-width: 1px;
-    border-color: #2C1106;
-    padding-top: 20px;
-}
-
-.navbar li a {
-    text-decoration: none;
-    color:#2C1106;
-    width: 110px;
+    width: 100px;
     height: 20px;
+    color: #2C1106;
+    margin: 10px 10px;
 }
+
 /*----------------------- Mid Section ----------------------- */
 
-.program-background-picture {
+.mid-bgd-picture {
     background: url("../images/1ice.jpg") no-repeat;
-    background-size: 100% 100%;
-    margin: auto;
-    height: 800px;
-    opacity: 0.6;
+    background-size: cover;
+    min-height: 480px;
 }
 
-.program-folder {
-                  
+.folder-container {
+    padding: 20px 0;
+    text-align: center;
+    display: inline-block;
 }
+
+.folder-container a img {
+    width: 50%;
+    min-width: 440px;
+    opacity: 0.85;
+}
+
+/*-- Mid Section Findos ----------------------- */
+
+.mid-bgd-picture-findos {
+    background: url("../images/1ice.jpg") no-repeat;
+    background-size: cover;
+    min-height: 480px;
+}
+
+.folder-container-findos {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.folder-container-findos iframe {
+    width: 80%;
+
+}
+
 
 /*----------------------- Footer ----------------------- */
 
@@ -123,8 +150,72 @@ background-color: #CBDFB9;
 .footer-sitemap a {
     color: #08E8B5;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    text-shadow: -1px 0 black, 1px 0 black, 1px 0 black, -1px 0 black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*----------------------- Media queries ----------------------- */
+
+@media(max-width: 991px) {
+
+.navbar li {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+@media(max-width: 767px) {
+
+.folder-container a img {
+    min-width: 320px;
+}
+
+.mainframe {
+    max-width: 80%;
+}
+
+.navbar a {
+    padding: 3px 0;
+}
+
+.navbar {
+    padding: 8px 8px;
+    width: 75%;
+}
+
+}
+
+@media(max-width: 479px) {
+
+.folder-container a img {
+    min-width: 220px; 
+    width: 90%;
+}
+
+.mainframe {
+    max-width: 95%;
+}
+
+body {
+    min-width: 353px;
+}
+
+.mainframe {
+    width: 100%;
+}
+
+.header-title {
+    padding: 20px 60px 0px 60px;
+}
+
+.navbar a {
+    padding: 3px 0;
+}
+
+.navbar {
+    padding: 10px 10px;
+    width: 85%;
+}
+
 }
