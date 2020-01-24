@@ -55,7 +55,7 @@ background-color:#969E8E;
     display: inline-block;
     border-style: solid;
     border-width: 1px;
-    border-radius: 9.5%;
+    border-radius: 3px;
     border-color: black;
     text-align: center;
     font-weight: 600;
@@ -87,6 +87,7 @@ background-color:#969E8E;
     width: 50%;
     min-width: 440px;
     opacity: 0.85;
+    border: 2px solid darkblue;
 }
 
 /*-- Mid Section Findos ----------------------- */
@@ -99,12 +100,164 @@ background-color:#969E8E;
 
 .folder-container-findos {
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .folder-container-findos iframe {
-    width: 80%;
+    width: 85%;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    opacity: 0.95;
+    min-height: 600px;
+}
 
+/*-- Mid Section Kontakt ----------------------- */
+
+.mid-bgd-picture-kontakt {
+    background: url("../images/1ice.jpg") no-repeat;
+    background-size: cover;
+    min-height: 480px;
+    text-align: center;
+}
+
+.mid-container-kontakt {
+    background-color: white;
+    width: 85%;
+    display: inline-block;
+    min-height: 700px;
+    margin: 40px 0;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    opacity: 0.85;
+}
+
+.mid-contrainer-info-kontakt {
+    width: 80%;
+    display: inline-block;
+    margin: 40px 0 100px 0;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    font-family: "source sans pro", sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    padding: 3px 8px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.mid-contrainer-info-kontakt p:last-child {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.mid-contrainer-info-kontakt p {
+    margin: 0;
+}
+
+.mid-container-kontakt form {
+    display: inline-block;  
+}
+
+.mid-container-kontakt form input {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    width: 240px;
+}
+
+.textarea-kontakt {
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    resize: none;
+    text-align: center;
+    width: 240px;
+}
+
+.mid-bgd-picture-kontakt form .botton-kontakt {
+    margin-bottom: 0;
+    margin-top: 25px;
+    height: 24px;
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    line-height: 6px;
+}
+
+.botton-kontakt:hover {
+    color: red;
+    background-color: darkblue;
+    transition: 0.6s;
+}
+    
+/*-- Mid Section demvier ----------------------- */
+
+.mid-bgd-picture-demvier {
+    background: url("../images/1ice.jpg") no-repeat;
+    background-size: cover;
+    min-height: 480px;
+    text-align: center;
+    }
+
+.info-demvier-box {
+    margin: 90px 0;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    display: inline-block;
+    min-height: 800px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+}
+
+.secret-div-demvier {
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.secret-div-demvier:after {
+    clear: both;
+    display: table;
+}
+
+.pic-demvier {
+    float: left;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    width: 45%;
+    min-width: 140px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.spacing-demvier-pics {
+    width: 20%;
+    background-color: white;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.info-demvier-box p {
+    font-family: "source sans pro", sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.pic-person-demvier {
+    margin-top: 8px;
+    width: 90%;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+}
+
+.pic-demvier p {
+    margin: 0;
+    padding: 5px 9px 2px;
+    font-family: "source sans pro", sans-serif;
+    font-size: 12px;
 }
 
 
@@ -139,7 +292,7 @@ background-color:#969E8E;
 }
 
 .footer-socialmedia li {
-    display: inline-block;
+    display: inline-block; 
 }
 
 .footer-sitemap {

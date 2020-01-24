@@ -81,6 +81,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 <h2>Credits</h2>
 Found inspiration on font-shadows from stackoverflow.com forums.
+As well as css-tricks.com on different kinds of styling
+
 <h3><b>Content</b></h3>
 <ul>
 <li>The text for section Y was copied from the Wikipedia article Z</li>
