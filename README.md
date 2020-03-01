@@ -1,38 +1,65 @@
 <h1>Your Project's Name</h1>
-One or two paragraphs providing an overview of your project.
+Welcome to my first project, a small site called: 'Teen Crash Vanløse' (TCV). The purpose of the webpage is to provide basic information about a youth group I am currently leading in Vanløse, in the heart of Copenhagen.
 
-Essentially, this part is your sales pitch.
+The youthgroup is a 7-9pm Thursday hangout for all kids aged 14-16. We play games, set up fun competetions and give the kids an inspirational input before sending them off. 
+So..This site can, like facebook and instagram, be helpful to find information about the youthgroup as well as be a platform where parents and people who don't know us, can explore a little about who we are, where we are and what we do.
+
+Simple but sweet. Enjoy. 
+
+
 
 <h2>UX</h2>
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+One of the primary ideas behind this site is to provide information about Teen Crash Vanløse in a very simple and clear way.
+The kids should first and foremost be able to immediately find the program for the next Thursday hangout thus you will find this on the homepage.
+This information is also availble on our facebook page, however this site is a lot less cluttery and has a lot fewer links than facebook. One click, arriving to the homepage and you have the program.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+The other few and simple features should be easily found without any confusion or random clutter of adds or unnecesary effects.
+These include how to contact us, information about who we are and what we do, how to find us, as well as a small gallery where eg. parents quickly can get a visual from some of the actual hangouts.
+Total there are 6 buttons on the nav-bar which is not much and should not cause confusion.
 
+I have deliberately put the more important buttons of the nav-bar on the sides and the possibly lesser used ones in the middle. Eg.
+If you're not looking for the program (which is on HP), you would possible be interested in a little general information about us, or, how to find us.
+
+
+It is my belief that the eyes first skip to the end if not immediately finding what they are looking for thus placing whats expected to be least useful 'hidden' somewhere in between. 
+
+Other than that site is build like users expect to see: a standard webpage with a header, a nav-bar just below followed by the main section and the footer at the bottom.
+All sections identical (not causing confusion) except of course, the content in the mid sections.
+
+<h3>Tools & resources</h3>
 <ul>
-<li>As a user type, I want to perform an action, so that I can achieve a goal.
+<li> The total six pages on the webpage was first outlined in Balsamiq Mockups v3.15.17. The final product ended up quite close to the inital idea and can be found under assets/resources/tc-mockups/"file".png
 </li>
-</ul>
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+<li>Site can be found here assets/resources/sitemap.xml or in the footer of the webpage.
+</li></ul>
 
 <h2>Features</h2>
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The features on the webpage includes:
 
 <h3><b>Existing Features</b></h3>
+<h4>Nav-bar</h4>
+<ul>
+<li>Feature 1 - Visible and downloadable program (pdf for print) quickly and easily accessibly to parents and participants of Teen Crash Vanløse </li>
+<li>Feature 2 - Contact page (not yet functional) where users who are new to TCV or not yet in contact with us can fill out a contact form inteded for an inbox of leaders of TCV.</li>
+<li>Feature 3 - A non-interactive gallery (Billeder) where users quickly get a feel of the atmosphere of hangouts at TCV. Bridgdes the gap of those who don't attend by still have interest in the youthgroup.</li>
+<li>Feature 4 - "Dem Vi er!?", meaning "Who We Are!?" - a page who connects outsiders with the leaders of TCV providing a small description as well as personal contact information (for those leaders who are willing to share). Again: furthers helps create a connection between those who do not know us.</li>
+<li>Feature 5 - "Find os!", meaning "Find us". Very much self-explanatory. Google maps rocks!
+<li>Feature 6 - A simple page with basic information about TCV</li>
+</ul>
+<h4>Other</h4>
 
 <ul>
-<li>Feature 1 - allows users X to achieve Y, by having them fill out Z</li>
-<li>...</li>
+<li>The footer connects users to facebook or instagram as well as provides a text-based sitemap. As the footer is very empty the two icons stand out very much which makes up for the current lack of reference from other places on the webpage. </li>
 </ul>
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 <h3><b>Features Left to Implement</b></h3>
+The site could be more connected with hints here and there providing information about this and that.
+It appears quite empty as of now and could easily hold more content without feeling flooded.
 
 <ul>
-<li>Another feature idea</li>
+<li>Video content from fun a interesting hangout events. Promotional videos making the webpage more lively.</li>
+<li>Visual 'goodies' in form of hover-effects or effects upon loading of the site. etc. The options a vast and making the site more lively and dynamic appearing more timemly and modern is a possible feature in itself.</li>
 </ul>
 
 <h2>Technologies Used</h2>
