@@ -123,7 +123,8 @@ The code has been modified to display the site in a reasonable way on all device
 I have found no bugs on the page, most likely because it is too simple to have bugs. I am still very inexperienced so perhaps they do exist and I just don't how to make them appear.
 
 <h2>Deployment</h2>
-As this project webpage is written in Gitpod and stored and saved on GitHub it is deployed through GitHub Pages, currently visible through a temporary adress: https://ableskewer.github.io/User-Centric-Frontend-Development-Milestone-Project/.
+As this project webpage is written in Gitpod and stored and saved on GitHub it is deployed through GitHub Pages,
+currently visible through a [temporary adress](https://ableskewer.github.io/User-Centric-Frontend-Development-Milestone-Project/)
 
 There are currently no differences between the development version and the live version.
 
