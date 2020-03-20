@@ -197,7 +197,7 @@ background-color: #292826;
     margin-bottom: 20px;
     border: 1px solid #292826;
     border-radius: 5px;
-    width: 240px;
+    width: 340px;
 }
 
 .textarea-kontakt {
@@ -205,7 +205,7 @@ background-color: #292826;
     border-radius: 5px;
     resize: none;
     text-align: center;
-    width: 240px;
+    width: 340px;
 }
 
 .mid-bgd-picture-kontakt form .botton-kontakt {
@@ -475,6 +475,15 @@ margin-bottom: 30px;
 
 .pic-demvier {
     width: 85%;
+}
+
+
+.mid-container-kontakt form input {
+    width: 200px;
+}
+
+.textarea-kontakt {
+    width: 200px;
 }
 
 }
